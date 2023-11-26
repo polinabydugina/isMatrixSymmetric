@@ -12,7 +12,7 @@ if (x <= 100)
     }
 
 
-    static bool isMatrixSymmetric(int[,] matrix)
+    bool isMatrixSymmetric(int[,] matrix)
     {
         int n = matrix.GetLength(0);
         for (int i = 0; i < n; i++)
